@@ -20,7 +20,7 @@ spec:
     spec: 
       containers: 
         - name: backend-container 
-          image: henhen7/be08-4th-2team:1.0-be 
+          image: :1.4-be
           resources: 
             requests: 
               memory: "1024Mi"
