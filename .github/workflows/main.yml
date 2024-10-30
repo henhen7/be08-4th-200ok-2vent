@@ -20,6 +20,9 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
+      - name: Create application.yml directory
+        run: mkdir -p ./backend/src/main/resources
+
       - name: Copy config file
         env:
           APPLICATION_YML_BASE64: ${{ secrets.APPLICATION_YML_BASE64 }}
