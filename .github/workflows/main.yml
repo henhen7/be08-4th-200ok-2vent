@@ -53,7 +53,7 @@ jobs:
 
       - name: ls
         run: |
-          ls
+          ls ./backend/build
           
       - name: Build and push Docker image
         run: |
