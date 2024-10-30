@@ -35,6 +35,7 @@ jobs:
           cd ./backend
           chmod +x gradlew
           ./gradlew build
+          ls
 
   docker-build-push:
     runs-on: ubuntu-latest
