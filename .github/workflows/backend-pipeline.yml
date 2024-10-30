@@ -94,6 +94,7 @@ jobs:
 
   update-deployment-file:
     runs-on: ubuntu-latest
+    environment: backend_git_actions
     needs: docker-build-push
     steps:
       - name: Checkout code from GitHub
