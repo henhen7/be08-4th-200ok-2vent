@@ -6,8 +6,6 @@ on:
       - main
     paths:
       - 'backend/**'
-    paths-ignore:
-      - 'deploy.yaml'
 
 jobs:
   build-backend:
